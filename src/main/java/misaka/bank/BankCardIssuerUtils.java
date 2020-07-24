@@ -23,9 +23,9 @@ public class BankCardIssuerUtils {
         BankCardIssuerUtils.bankCardIssuerProvider = bankCardIssuerProvider;
     }
 
-    public static BankCardIssuer findBankCardIssuer(String bankCardNumber) {
+    public static BankCardIssuer findByBankCardNumber(String bankCardNumber) {
 
-        return getBankCardIssuerProvider().findBankCardIssuer(bankCardNumber);
+        return getBankCardIssuerProvider().findByBankCardNumber(bankCardNumber);
     }
 
 }

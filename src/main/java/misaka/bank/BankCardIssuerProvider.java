@@ -11,6 +11,6 @@ public interface BankCardIssuerProvider {
      * @param bankCardNumber Bank card number
      * @return Bank card issuer object
      */
-    BankCardIssuer findBankCardIssuer(String bankCardNumber);
+    BankCardIssuer findByBankCardNumber(String bankCardNumber);
 
 }
