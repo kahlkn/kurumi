@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.kahlkn</groupId>
     <artifactId>misaka</artifactId>
-    <version>1.0.0.20191020.beta</version>
+    <version>1.0.0.20190647-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Misaka</name>
     <url>https://github.com/kahlkn/misaka</url>
@@ -57,7 +57,7 @@
         <dependency>
             <groupId>com.github.kahlkn</groupId>
             <artifactId>artoria</artifactId>
-            <version>1.0.0.20191020.beta</version>
+            <version>1.0.0.20190647-SNAPSHOT</version>
         </dependency>
 
         <dependency>
