@@ -2,6 +2,6 @@ package misaka.whois;
 
 public interface WhoisServerProvider {
 
-    WhoisServer findWhoisServer(String domainName);
+    WhoisServer findByDomainName(String domainName);
 
 }

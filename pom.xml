@@ -57,7 +57,7 @@
         <dependency>
             <groupId>com.github.kahlkn</groupId>
             <artifactId>artoria</artifactId>
-            <version>1.0.0.20190647-SNAPSHOT</version>
+            <version>1.0.0.20190648-SNAPSHOT</version>
         </dependency>
 
         <dependency>

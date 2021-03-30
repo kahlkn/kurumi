@@ -31,14 +31,14 @@ public class WhoisUtils {
         WhoisUtils.whoisProvider = whoisProvider;
     }
 
-    public static WhoisServer findWhoisServer(String domainName) {
+    public static WhoisServer findServerByDomainName(String domainName) {
 
-        return getWhoisServerProvider().findWhoisServer(domainName);
+        return getWhoisServerProvider().findByDomainName(domainName);
     }
 
-    public static WhoisObject findWhois(String domainName) {
+    public static WhoisObject findByDomainName(String domainName) {
 
-        return getWhoisProvider().findWhois(domainName);
+        return getWhoisProvider().findByDomainName(domainName);
     }
 
 }
