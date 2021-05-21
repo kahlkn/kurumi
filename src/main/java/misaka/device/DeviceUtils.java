@@ -1,6 +1,5 @@
 package misaka.device;
 
-import artoria.data.Device;
 import artoria.logging.Logger;
 import artoria.logging.LoggerFactory;
 import artoria.util.Assert;
